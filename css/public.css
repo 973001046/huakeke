@@ -1,0 +1,57 @@
+@charset 'utf-8';
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5 'Microsoft YaHei' tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+.clearfix:after { content: ''; display: block; height: 0; font-size: 0; overflow: hidden; clear: both; }
+.clearfix { zoom: 1; }
+.left { float: left; }
+.right { float: right; } .hide { display: none; }
+.wrap { width: 1200px; margin: 0 auto; }
+.top-nav { background-color: #f3f3f3; height: 40px; line-height: 40px; font-size: 14px; color: #888; }
+.top-nav .welcome { float: left; margin-left: 50px;  }
+.top-nav .tips { float: right; margin-right: 50px; }
+.top-nav .tips ul li { display: inline-block; margin-left: 20px; padding-left: 28px; background-size: 20px; }
+.top-nav .tips ul li:nth-child(1) { background: url('../images/money.png') no-repeat left center; }
+.top-nav .tips ul li:nth-child(2) { background: url('../images/phone.png') no-repeat left center; }
+.top-nav .tips ul li:nth-child(3) { background: url('../images/tel.png') no-repeat left center; }
+.nav { padding: 20px 0; height: 65px;}
+.nav .logo { margin-left: 50px; float: left;}
+.nav .logo img { width: 146px; height: 65px; }
+.nav .more { height: 65px; overflow: hidden; background: url('../images/more.png') no-repeat; background-position: right 5px; float: left; width: 240px; line-height: 100px; font-size: 18px; color: #333; margin-left: 20px; border-left: 1px solid #ccc; padding-left: 18px;}
+.nav ul { margin-right: 50px; }
+.nav ul li { display: inline-block; }
+.nav ul li a { font-size: 16px; color: #333; display: block; line-height: 65px; text-decoration: none; margin-left: 30px; }
+.nav ul li a:hover,.nav ul li.current a { color: #d9181d; border-bottom: 2px solid #d9181d; }
+.footer { background-color: rgba(0,0,0,0.5); background: url('../images/bottom.jpg') no-repeat center;}
+.footer .bottom-list { padding-top: 50px; }
+.footer .bottom-list li{ float: left; width: 190px;}
+.footer .bottom-list h5 { font-size: 18px; color: #fff; margin-bottom: 30px;}
+.footer .bottom-list .link a { display: block; font-size: 14px; color: #8d8d8d; text-decoration: none; line-height: 30px;}
+.footer .bottom-list .link a:hover { color: #d9181d; }
+.footer .bottom-list .link { min-height: 180px; }
+.footer .bottom-list .tip a { display: inline-block; border-bottom: 1px solid #3a3a3a; text-decoration: none; font-size: 12px; color: #fff; line-height: 45px;}
+.footer .bottom-list .weChat img{ width: 146px; height: 146px; }
+.footer .bottom-list .tel { font-size: 30px; color: #ed1a20; }
+.footer .bottom-list li:last-child { width: 200px; }
+.footer .bottom-list .tips { color: #fff; margin: 30px 0;}
+.footer .bottom-list .tips h6{ font-size: 14px; }
+.footer .bottom-list .tips p{ font-size: 12px; }
+.footer .friendly { border-top: 1px solid #262525; margin-top: 50px; padding-top: 20px; font-size: 14px; color: #555;}
+.footer .bottom-content { background-color: #d9181d; height: 80px; line-height: 80px; margin-top: 20px; font-size: 12px; color: #fff; text-indent: 30px;}
+.footer .bottom-content img { height: 40px; margin-right: 27px; margin-top: 20px; }
+.page .control { text-align: center; padding: 40px 0;}
+.page .control li { display: inline-block; cursor: pointer; width: 40px; height: 40px; text-align: center; line-height: 40px; border: 1px solid #e2e2e2; font-size: 18px; color: #666;}
+.page .control li a { display: block; color: #666; text-decoration: none; }
+.page .control li.current a,.page .control li:hover a { background-color: #d9181d; color: #fff; }
