@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@media screen and (max-width: 1400px) {
+    .nav .more { display: none; }
+}
+
+@media screen and (max-width: 750px) {
+    .top-nav { display: none; }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav .logo { display: none; }
+  .nav .logo.wap-img { display: block; height: 50px; line-height: 50px;}
+  .nav .right-bar { width: 40px; height: 50px; background: url('../images/linkTab.png') no-repeat center; float: right; cursor: pointer; content: '' }
+  .nav .link-list { float: none; }
+  .nav .wap:after { content: ''; display: block; height: 0; font-size: 0; overflow: hidden; clear: both; }
+  .nav .wap { background-color: #eee }
+  .nav .logo.wap-img img{ height: 36px; margin: 7px;}
+  .nav .link-list { display: none; }
+  .nav .link-list li { width: 100%; line-height: 45px; text-indent: 20px; border-bottom: 1px solid #e2e2e2;}
+  .nav .link-list li:hover { background-color: #d9181d; }
+  .nav .link-list li:hover a { color: #fff; }
+  .nav .link-list li a { color: #666; text-decoration: none; display: block; }
+}
+
+@media screen and (max-width: 1200px) {
+	
+}

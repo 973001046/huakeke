@@ -26,14 +26,16 @@ table { border-collapse:collapse; border-spacing:0; }
 .top-nav .tips ul li:nth-child(1) { background: url('../images/money.png') no-repeat left center; }
 .top-nav .tips ul li:nth-child(2) { background: url('../images/phone.png') no-repeat left center; }
 .top-nav .tips ul li:nth-child(3) { background: url('../images/tel.png') no-repeat left center; }
-.nav { padding: 20px 0; height: 65px;}
-.nav .logo { margin-left: 50px; float: left;}
-.nav .logo img { width: 146px; height: 65px; }
-.nav .more { height: 65px; overflow: hidden; background: url('../images/more.png') no-repeat; background-position: right 5px; float: left; width: 240px; line-height: 100px; font-size: 18px; color: #333; margin-left: 20px; border-left: 1px solid #ccc; padding-left: 18px;}
-.nav ul { margin-right: 50px; }
-.nav ul li { display: inline-block; }
-.nav ul li a { font-size: 16px; color: #333; display: block; line-height: 65px; text-decoration: none; margin-left: 30px; }
-.nav ul li a:hover,.nav ul li.current a { color: #d9181d; border-bottom: 2px solid #d9181d; }
+@media screen and (min-width: 1100px) {
+	.nav { padding: 20px 0; height: 65px;}
+	.nav .logo { margin-left: 50px; float: left;}
+	.nav .logo img { width: 146px; height: 65px; }
+	.nav .more { height: 65px; overflow: hidden; background: url('../images/more.png') no-repeat; background-position: right 5px; float: left; width: 240px; line-height: 100px; font-size: 18px; color: #333; margin-left: 20px; border-left: 1px solid #ccc; padding-left: 18px;}
+	.nav ul { margin-right: 50px; }
+	.nav ul li { display: inline-block; }
+	.nav ul li a { font-size: 16px; color: #333; display: block; line-height: 65px; text-decoration: none; margin-left: 30px; }
+	.nav ul li a:hover,.nav ul li.current a { color: #d9181d; border-bottom: 2px solid #d9181d; }
+}
 .footer { background-color: rgba(0,0,0,0.5); background: url('../images/bottom.jpg') no-repeat center;}
 .footer .bottom-list { padding-top: 50px; }
 .footer .bottom-list li{ float: left; width: 190px;}
@@ -75,3 +77,12 @@ table { border-collapse:collapse; border-spacing:0; }
 .insitute-imgs ul li:hover .position { display: block; }
 .insitute-imgs .more { text-align: center; padding: 50px 0; }
 .insitute-imgs .more a{ display: inline-block; color: #666; font-size: 14px; width: 140px; height: 40px; line-height: 40px; text-align: center; line-height: 40px; border: 1px solid #c4c4c4; background: url('../images/rightJian.png') no-repeat 98px center; }
+.not-found { text-align: center; width: 100%; height: 100%; position: fixed; left: 0; top: 0;}
+.not-found .table { display: table; width: 100%; height: 100%; background: url('../images/404_2.png') no-repeat center;}
+.not-found .table-cell { display: table-cell; vertical-align: middle;}
+.not-found .table-cell h2 { font-size: 30px; color: #3a3a3a; font-weight: normal; margin: 15px 0 10px; }
+.not-found .table-cell p { font-size: 16px; color: #3a3a3a; }
+.not-found .link { margin-top: 40px; }
+.not-found .link a { display: inline-block; width: 142px; height: 40px; margin-left: 40px; color: #fff; line-height: 40px; border-radius: 20px; text-decoration: none; }
+.not-found .link a:first-child { background-color: #979696; }
+.not-found .link a:last-child { background-color: #ce030d; }

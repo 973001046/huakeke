@@ -3,12 +3,16 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+  <meta name="keywords" content=""/>
 	<title>首页</title>
 	<link rel="stylesheet" href="css/public.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/response.css">
 </head>
 <body>
 	<!-- S top -->
@@ -27,11 +31,15 @@
 
 	<!-- S nav -->
     <div class="nav clearfix">
-    	<div class="left">
-    		<div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
-    		<div class="more">办公装修找华可可，始于1867</div>
-    	</div>
-    	<div class="right">
+      <div class="wap">
+      	<div class="left">
+          <div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
+      		<div class="logo wap-img hide"><a href="/"><img src="images/wapLogo.png" alt=""></a></div>
+      		<div class="more">办公装修找华可可，始于1867</div>
+      	</div>
+        <div class="right-bar" id="navBar"></div>
+      </div>
+    	<div class="right link-list">
     		<ul>
     			<li class="current"><a href="/">首页</a></li>
     			<li><a href="/">装修案例</a></li>
@@ -47,7 +55,7 @@
 	<!-- E nav -->
 	
 	<!-- S Swiper -->
-   <div class="swiper-container pc">
+  <div class="swiper-container pc">
       <div class="swiper-wrapper">
 	      <div class="swiper-slide" style='background-image: url(images/banner.jpg);'><a href="#">banner title1</a></div>
 	      <div class="swiper-slide" style='background-image: url(images/banner.jpg);'><a href="#">banner title2</a></div>
@@ -230,14 +238,82 @@
   </div>
   <!-- E advantage -->
 
+  <!-- S 工艺流程 -->
+  <div class="technological-process"></div>
+  <!-- E 工艺流程 -->
+
   <!-- S witness -->
   <div class="witness">
   	 <div class="title">
-  	 	<h2>客户见证</h2>
-  	 	<p>装修要追求匠心，只有匠心才可以做出很好的作品</p>
+  	 	 <h2>客户见证</h2>
+  	 	 <p>装修要追求匠心，只有匠心才可以做出很好的作品</p>
   	 </div>
+
+     <div class="img-lists wrap clearfix">
+        <ul>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+           <li><a href="javascript:;"><img src="images/card.jpg"></a></li>
+        </ul>
+     </div>
+
+     <div class="control">
+        <ul>
+           <li class="pre"><a href="javascript:;">pre</a></li>
+           <li class="num current"><a href="javascript:;">01</a></li>
+           <li class="num"><a href="javascript:;">02</a></li>
+           <li class="num"><a href="javascript:;">03</a></li>
+           <li class="next"><a href="javascript:;">next</a></li>
+        </ul>
+     </div>
   </div>
   <!-- E witness -->
+
+  <!-- S index-introduction -->
+  <div class="index-introduction">
+     <div class="contxt wrap">
+        <div class="bg"></div>
+        <h2>Introduction</h2>
+        <div class="tip">
+           <h3>华可可设计</h3>
+           <p>深圳市华可可设计工程有限公司创办于2007年，具备十年的装饰设计经验。公司专注于商业空间、办公空间及工厂的装饰设计与施工，是一家集设计、施工与售后服务为一体化的装饰设计企业。在契合当代“绿色、环保、健康”的发展理念基础上，为客户提供优质的装饰设计工程服务方案，成为装饰设计产业的引领者。</p>
+           <a href="#">查看详情</a>
+        </div>
+     </div>
+     <div class="video"><img src="images/radio.jpg"></div>
+  </div>
+  <!-- E index-introduction -->
+
+  <!-- S Corporate Style -->
+  <div class="corporate-style">
+     <div class="content wrap">
+        <div class="tap">
+           <ul>
+              <li class="current"><a href="javascript:;">企业风采</a></li>
+              <li><a href="javascript:;">合作伙伴</a></li>
+              <li><a href="javascript:;">资质证书</a></li>
+           </ul>
+        </div>
+     </div>
+
+     <div class="slider wrap one-time hide">
+        <div><h3><img src="images/tap.jpg"></h3></div>
+        <div><h3><img src="images/tap.jpg"></h3></div>
+        <div><h3><img src="images/tap.jpg"></h3></div>
+        <div><h3><img src="images/tap.jpg"></h3></div>
+        <div><h3><img src="images/tap.jpg"></h3></div>
+        <div><h3><img src="images/tap.jpg"></h3></div>
+      </div>
+  </div>
+  <!-- E Corporate Style -->
+
 
   <!-- S tap-three -->
   <div class="tap-three">
@@ -436,6 +512,9 @@
 
 </body>
 <script src="js/swiper.min.js"></script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 <script>
 	var swiper = new Swiper('.swiper-container', {
       navigation: {
@@ -445,5 +524,19 @@
       autoplay:true,
       loop : true,
     });
+
+  $('.one-time').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 5,
+    touchMove: false,
+    slidesToScroll: 1
+  });
+  $('.one-time').removeClass('hide');
+
+  $('#navBar').click(function(){
+     $('.nav .link-list').toggle();
+  })
 </script>
 </html>
