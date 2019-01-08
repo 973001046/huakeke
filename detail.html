@@ -4,10 +4,11 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
 	<meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+  <meta name="keywords" content=""/>
 	<title>详情</title>
 	<link rel="stylesheet" href="css/public.css">
 	<link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/response.css">
 </head>
 <body style="background-color: #f4f4f4;">
 	<!-- S top -->
@@ -24,36 +25,43 @@
 	</div>
 	<!-- E top -->
 
-	<!-- S nav -->
-    <div class="nav clearfix" style="background-color: #fff;">
-    	<div class="left">
-    		<div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
-    		<div class="more">办公装修找华可可，始于1867</div>
-    	</div>
-    	<div class="right">
-    		<ul>
-    			<li class="current"><a href="/">首页</a></li>
-    			<li><a href="/">装修案例</a></li>
-    			<li><a href="/">设计研究院</a></li>
-    			<li><a href="/">华可可品质</a></li>
-    			<li><a href="/">华可可生态链</a></li>
-    			<li><a href="/">新闻资讯</a></li>
-    			<li><a href="/">集团概况</a></li>
-    			<li><a href="/">直营分公司</a></li>
-    		</ul>
-    	</div>
-    </div>
-	<!-- E nav -->
+ <!-- S nav -->
+  <div class="nav clearfix">
+      <div class="wap">
+        <div class="left">
+          <div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
+          <div class="logo wap-img hide"><a href="/"><img src="images/wapLogo.png" alt=""></a></div>
+          <div class="more">办公装修找华可可，始于1867</div>
+        </div>
+        <div class="right-bar" id="navBar"></div>
+      </div>
+      <div class="right link-list">
+        <ul>
+          <li class="current"><a href="/">首页</a></li>
+          <li><a href="/">装修案例</a></li>
+          <li><a href="/">设计研究院</a></li>
+          <li><a href="/">华可可品质</a></li>
+          <li><a href="/">华可可生态链</a></li>
+          <li><a href="/">新闻资讯</a></li>
+          <li><a href="/">集团概况</a></li>
+          <li><a href="/">直营分公司</a></li>
+        </ul>
+      </div>
+  </div>
+  <!-- E nav -->
 	
   <!-- S about-img -->
-	<div class="about-img" style="background: url('images/detail.jpg') no-repeat center; "> your image in bg</div>
+	<div class="about-img" style="background: url('images/detail.jpg') no-repeat center; "> 
+      <img src="images/detail.jpg" alt="">
+  </div>
   <!-- E about-img -->
 
   <!-- S story -->
   <div class="story" style="background-color: #fff;">
      <div class="title clearfix">
        <div class="wrap">
-	       <ul class="left">
+        <div class="left hide" id='storyBar'></div>
+	       <ul class="left" id='storyToggle'>
 	         <li class="current"><a href="javascript:;">华可可标准</a></li>
 	         <li><a href="javascript:;">业务流程</a></li>
 	       </ul>
@@ -220,4 +228,6 @@
   <!-- E footer -->
 
 </body>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 </html>

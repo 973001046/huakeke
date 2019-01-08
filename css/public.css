@@ -27,7 +27,7 @@ table { border-collapse:collapse; border-spacing:0; }
 .top-nav .tips ul li:nth-child(2) { background: url('../images/phone.png') no-repeat left center; }
 .top-nav .tips ul li:nth-child(3) { background: url('../images/tel.png') no-repeat left center; }
 @media screen and (min-width: 1100px) {
-	.nav { padding: 20px 0; height: 65px;}
+	.nav { padding: 20px 0; height: 65px; background-color: #fff; }
 	.nav .logo { margin-left: 50px; float: left;}
 	.nav .logo img { width: 146px; height: 65px; }
 	.nav .more { height: 65px; overflow: hidden; background: url('../images/more.png') no-repeat; background-position: right 5px; float: left; width: 240px; line-height: 100px; font-size: 18px; color: #333; margin-left: 20px; border-left: 1px solid #ccc; padding-left: 18px;}

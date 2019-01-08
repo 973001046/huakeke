@@ -8,6 +8,7 @@
 	<title>关于华可可</title>
 	<link rel="stylesheet" href="css/public.css">
 	<link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/response.css">
 </head>
 <body>
 	<!-- S top -->
@@ -24,44 +25,52 @@
 	</div>
 	<!-- E top -->
 
-	<!-- S nav -->
-    <div class="nav clearfix">
-    	<div class="left">
-    		<div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
-    		<div class="more">办公装修找华可可，始于1867</div>
-    	</div>
-    	<div class="right">
-    		<ul>
-    			<li class="current"><a href="/">首页</a></li>
-    			<li><a href="/">装修案例</a></li>
-    			<li><a href="/">设计研究院</a></li>
-    			<li><a href="/">华可可品质</a></li>
-    			<li><a href="/">华可可生态链</a></li>
-    			<li><a href="/">新闻资讯</a></li>
-    			<li><a href="/">集团概况</a></li>
-    			<li><a href="/">直营分公司</a></li>
-    		</ul>
-    	</div>
+ <!-- S nav -->
+  <div class="nav clearfix">
+      <div class="wap">
+        <div class="left">
+          <div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
+          <div class="logo wap-img hide"><a href="/"><img src="images/wapLogo.png" alt=""></a></div>
+          <div class="more">办公装修找华可可，始于1867</div>
+        </div>
+        <div class="right-bar" id="navBar"></div>
+      </div>
+      <div class="right link-list">
+        <ul>
+          <li class="current"><a href="/">首页</a></li>
+          <li><a href="/">装修案例</a></li>
+          <li><a href="/">设计研究院</a></li>
+          <li><a href="/">华可可品质</a></li>
+          <li><a href="/">华可可生态链</a></li>
+          <li><a href="/">新闻资讯</a></li>
+          <li><a href="/">集团概况</a></li>
+          <li><a href="/">直营分公司</a></li>
+        </ul>
+      </div>
     </div>
-	<!-- E nav -->
+  <!-- E nav -->
 	
   <!-- S about-img -->
-	<div class="about-img" style="background: url('images/about1.jpg') no-repeat center; "> your image in bg</div>
+  <div class="about-img" style="background: url('images/about1.jpg') no-repeat center; "> 
+      <img src="images/about1.jpg" alt="">
+  </div>
   <!-- E about-img -->
 
   <!-- S story -->
   <div class="story">
-     <div class="title">
-       <ul class="wrap">
-         <li class="current"><a href="javascript:;">品牌故事</a></li>
-         <li><a href="javascript:;">发展历程</a></li>
-         <li><a href="javascript:;">精英团队</a></li>
-         <li><a href="javascript:;">董事长寄语</a></li>
-         <li><a href="javascript:;">荣誉资质</a></li>
-         <li><a href="javascript:;">招贤纳士</a></li>
-         <li><a href="javascript:;">企业文化</a></li>
-         <li><a href="javascript:;">联系我们</a></li>
-       </ul>
+     <div class="title clearfix">
+       <div class="wrap">
+        <div class="left hide" id='storyBar'></div>
+         <ul class="left" id='storyToggle'>
+           <li class="current"><a href="javascript:;">华可可标准</a></li>
+           <li><a href="javascript:;">业务流程</a></li>
+         </ul>
+
+         <div class="home right">
+            <a href="javascript:;">首页</a> &gt;
+            <a href="javascript:;">华可可标准</a>
+         </div>
+       </div>
      </div>
 
      <div class="double wrap clearfix">
@@ -378,4 +387,6 @@
   <!-- E footer -->
 
 </body>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
 </html>
