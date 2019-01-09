@@ -224,7 +224,7 @@
   <!-- E chain-detail  -->
 
   <!-- S build -->
-  <div class="build hide">
+  <div class="build">
   	 <div class="title">
   	 	  <h2>在建工地</h2>
   	 	  <p>装修要追求匠心，只有匠心才可以做出很好的作品</p>
@@ -232,19 +232,51 @@
   	 <div class="more">MORE</div>
      <div class="swiper-container" id='swiper'>
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
+        <div class="swiper-slide">
+           <div class="img"><img src="images/indeImg.jpg"></div>
+           <div class="txt">
+              <h2>办公室装修实景图华可可为壹牛打造350㎡..</h2>
+              <p>本装修案例的空间本身原有的采光条件很好，无需做太多的隔墙，希望整个空间在动线功能分区上...</p>
+              <a href="">查看更多</a>
+           </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="img"><img src="images/indeImg.jpg"></div>
+           <div class="txt">
+              <h2>办公室装修实景图华可可为壹牛打造350㎡..</h2>
+              <p>本装修案例的空间本身原有的采光条件很好，无需做太多的隔墙，希望整个空间在动线功能分区上...</p>
+              <a href="">查看更多</a>
+           </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="img"><img src="images/indeImg.jpg"></div>
+           <div class="txt">
+              <h2>办公室装修实景图华可可为壹牛打造350㎡..</h2>
+              <p>本装修案例的空间本身原有的采光条件很好，无需做太多的隔墙，希望整个空间在动线功能分区上...</p>
+              <a href="">查看更多</a>
+           </div>
+        </div>
+        <div class="swiper-slide">
+           <div class="img"><img src="images/indeImg.jpg"></div>
+           <div class="txt">
+              <h2>办公室装修实景图华可可为壹牛打造350㎡..</h2>
+              <p>本装修案例的空间本身原有的采光条件很好，无需做太多的隔墙，希望整个空间在动线功能分区上...</p>
+              <a href="">查看更多</a>
+           </div>
+        </div>
+
+        <div class="swiper-slide">
+           <div class="img"><img src="images/indeImg.jpg"></div>
+           <div class="txt">
+              <h2>办公室装修实景图华可可为壹牛打造350㎡..</h2>
+              <p>本装修案例的空间本身原有的采光条件很好，无需做太多的隔墙，希望整个空间在动线功能分区上...</p>
+              <a href="">查看更多</a>
+           </div>
+        </div>
       </div>
       <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
   <!-- E build -->
@@ -768,7 +800,12 @@
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
 <script>
-	
+	var swiper = new Swiper('.container-swiper', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 
   $('.one-time').slick({
     dots: true,
@@ -781,10 +818,10 @@
   $('.one-time').removeClass('hide');
 
  var swipers = new Swiper('#swiper', {
-      // navigation: {
-      //   nextEl: '.swiper-button-next',
-      //   prevEl: '.swiper-button-prev',
-      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
       slidesPerView: 'auto',
       spaceBetween: 10,
       freeMode: false,
