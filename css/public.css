@@ -24,8 +24,8 @@ table { border-collapse:collapse; border-spacing:0; }
 .top-nav .tips { float: right; margin-right: 50px; }
 .top-nav .tips ul li { display: inline-block; margin-left: 20px; padding-left: 28px; background-size: 20px; }
 .top-nav .tips ul li:nth-child(1) { background: url('../images/money.png') no-repeat left center; }
-.top-nav .tips ul li:nth-child(2) { background: url('../images/phone.png') no-repeat left center; color: #333; font-weight: bold;}
-.top-nav .tips ul li:nth-child(3) { background: url('../images/tel.png') no-repeat left center; color: #333; font-weight: bold;}
+.top-nav .tips ul li:nth-child(2) { background: url('../images/phone.png') no-repeat left center; color: #333; font-family: 'Arial'}
+.top-nav .tips ul li:nth-child(3) { background: url('../images/tel.png') no-repeat left center; color: #333; font-family: 'Arial'}
 .footer { background-color: rgba(0,0,0,0.5); background: url('../images/bottom.jpg') no-repeat center;}
 .footer .bottom-list { padding-top: 50px; }
 .footer .bottom-list li{ float: left; width: 185px;}
