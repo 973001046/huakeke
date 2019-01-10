@@ -13,7 +13,7 @@
 .story .double .txt { float: left; width: 600px; }
 .story .double .txt h3 { font-size: 38px; color: #d10024; font-weight: normal; }
 .story .double .txt .english { font-size: 28px; color: #ddd; }
-.story .double .txt p { text-indent: 25px; margin-top: 20px; line-height: 2; margin-left: 10px;}
+.story .double .txt p { text-indent: 25px; margin-top: 20px; line-height: 2.5; margin-left: 10px; font-size: 14px; }
 .story .double .left img { margin-bottom: 70px; }
 .story .home { font-size: 14px; color: #888; padding-left: 27px; background: url('../images/home.png') no-repeat left center; }
 .story .home a { color: #888; }
@@ -73,6 +73,7 @@
 .boss .right { display: table; height: 646px; margin-right: -70px;}
 .boss .right .img{ display: table-cell; vertical-align: middle;}
 .boss .right .img img{ width: 550px; height: 406px; }
+.honer .lists { height: 370px; }
 .honer .title h2 { font-size: 36px; color: #222; text-align: center; margin-top: 60px;}
 .honer .title .line { content: ''; height: 3px; width: 55px; overflow: hidden; background-color: #d10024; margin: 15px auto 30px; transition: all 0.3s;}
 .honer .lists li { float: left; width: 276px; text-align: center; box-sizing: border-box; margin-right: 24px; transition: all 0.3s;}
