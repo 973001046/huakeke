@@ -10,9 +10,10 @@
 }
 .story .double .left { width: 540px; margin-right: 58px;}
 .story .double { margin-top: 90px; }
-.story .double .txt h3 { font-size: 38px; color: #d10024; }
+.story .double .txt { float: left; width: 600px; }
+.story .double .txt h3 { font-size: 38px; color: #d10024; font-weight: normal; }
 .story .double .txt .english { font-size: 28px; color: #ddd; }
-.story .double .txt p { text-indent: 25px; margin-top: 20px; line-height: 2;}
+.story .double .txt p { text-indent: 25px; margin-top: 20px; line-height: 2; margin-left: 10px;}
 .story .double .left img { margin-bottom: 70px; }
 .story .home { font-size: 14px; color: #888; padding-left: 27px; background: url('../images/home.png') no-repeat left center; }
 .story .home a { color: #888; }
@@ -68,14 +69,15 @@
 .boss .left h5 { font-size: 30px; margin-top: 110px; }
 .boss .left h6 { font-size: 30px; font-weight: normal; margin-bottom: 20px; }
 .boss .left p { margin-bottom: 15px; line-height: 2; text-indent: 25px; font-size: 14px; }
-.boss .right { display: table; height: 646px;}
+.boss .right { display: table; height: 646px; margin-right: -70px;}
 .boss .right .img{ display: table-cell; vertical-align: middle;}
 .boss .right .img img{ width: 550px; height: 406px; }
 .honer .title h2 { font-size: 36px; color: #222; text-align: center; margin-top: 60px;}
 .honer .title .line { content: ''; height: 3px; width: 55px; overflow: hidden; background-color: #d10024; margin: 15px auto 30px; transition: all 0.3s;}
 .honer .lists li { float: left; width: 276px; text-align: center; box-sizing: border-box; margin-right: 24px; transition: all 0.3s;}
 .honer .lists li .img { padding: 50px 0; border: 1px solid #dedede; transform: all 0.3s;}
-.honer .lists li:hover .img { border-bottom: 3px solid #d10024; transition: all 0.3s;}
+.honer .lists li:hover .img { border-bottom: 3px solid #d10024; transition: all 0.3s; box-shadow: 0 0 10px #ccc ;}
+.honer .lists li:hover p { color: #d9181d }
 .honer .lists li:hover { transform: translateY(-10px); transition: all 0.3s;}
 .honer .lists li p { line-height: 45px; margin-top: 8px; }
 .honer .more { background-color: red; text-align: center; line-height: 40px; padding-bottom: 13px; width: 110px; margin: 15px auto 50px; background: url('../images/bo.png') no-repeat bottom center; }
@@ -219,8 +221,6 @@
 .chain-detail .control .inline .pre { background:#fff url('../images/control1.png') no-repeat center; }
 .chain-detail .control .inline .next { background:#fff url('../images/control3.png') no-repeat center; }
 .chain-detail .control .inline .center { background:#fff url('../images/control2.png') no-repeat center; }
-
-
 .team { margin-top: 50px; margin-bottom: 50px;}
 .team .team-img { width: 100%; background-color: #fff; margin-top: 30px;}
 .team .team-img .img { width: 50%; float: left; overflow: hidden;}

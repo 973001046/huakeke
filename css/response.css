@@ -6,6 +6,16 @@
   .chain .left-part .txt { float: none; width: 95%; margin: 0 auto; }
   .index-introduction .video { display: none; }
 }
+@media screen and (min-width: 1100px) {
+  .nav { padding: 20px 0; height: 65px; background-color: #fff; }
+  .nav .logo { margin-left: 50px; float: left;}
+  .nav .logo img { width: 146px; height: 65px; }
+  .nav .more { height: 65px; overflow: hidden; background: url('../images/more.png') no-repeat; background-position: right 5px; float: left; width: 240px; line-height: 100px; font-size: 18px; color: #333; margin-left: 20px; border-left: 1px solid #ccc; padding-left: 18px;}
+  .nav ul { margin-right: 50px; }
+  .nav ul li { display: inline-block; }
+  .nav ul li a { font-size: 16px; color: #333; display: block; line-height: 65px; text-decoration: none; margin-left: 30px; }
+  .nav ul li a:hover,.nav ul li.current a { color: #d9181d; border-bottom: 2px solid #d9181d; }
+}
 @media screen and (max-width: 1200px) {
   .wrap { width: 100%; min-width: 100%; }
   .story .title ul { margin-left: 10px; }
@@ -18,7 +28,7 @@
   .contxt-detail .bottom-control .next {  margin-right: 20px; }
   .footer .bottom-list,.footer .friendly { display: none; }
   .story .double .left { display: none; }
-  .story .double .txt { width: 95%; margin: -60px auto 20px; }
+  .story .double .txt { width: 95%; margin: -60px auto 20px; float: none; }
   .story .double .txt h3 { font-size: 20px; }
   .story .double .txt p { font-size: 15px; }
   .boss .right { display: none; }
