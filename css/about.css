@@ -60,6 +60,7 @@
 .mission ul li .innter p { font-size: 24px; max-width: 485px; margin: 0 auto; line-height: 1.8; }
 .worth { margin-bottom: 50px; }
 .worth .title { text-align: center; margin-top: 30px;}
+.worth .title h2 { font-size: 36px; }
 .worth .title .line { content: ''; height: 3px; font-size: 0; background-color: #d10024; overflow: hidden; width: 50px; margin: 20px auto 40px;}
 .worth ul li { float: left; width: 20%; text-align: center; }
 .worth ul li h6 { font-size: 20px; margin: 20px 0 15px; font-weight: normal;}

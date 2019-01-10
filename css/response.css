@@ -93,6 +93,7 @@
   .slick-next { right: 0; }
   .slick-prev { left: 0; }
   .service ul li { width: 200px; }
+  .worth .title h2 { font-size: 20px; }
 }
 @media screen and (max-width: 1100px) {
   .about-img { height: auto; width: 100%; }
