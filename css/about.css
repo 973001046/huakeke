@@ -57,7 +57,7 @@
 .mission ul li .innter { position: absolute; width: 100%; height: 100%; left: 0; top: 0; color: #fff; text-align: center; display: table; vertical-align: middle;}
 .mission ul li .innter .cell { display: table-cell; height: 100%; vertical-align: middle; }
 .mission ul li .innter h4 { font-size: 30px; font-weight: normal; margin: 15px 0;}
-.mission ul li .innter p { font-size: 24px; max-width: 485px; margin: 0 auto; }
+.mission ul li .innter p { font-size: 24px; max-width: 485px; margin: 0 auto; line-height: 1.8; }
 .worth { margin-bottom: 50px; }
 .worth .title { text-align: center; margin-top: 30px;}
 .worth .title .line { content: ''; height: 3px; font-size: 0; background-color: #d10024; overflow: hidden; width: 50px; margin: 20px auto 40px;}
