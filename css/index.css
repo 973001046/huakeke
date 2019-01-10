@@ -62,7 +62,7 @@
 .advantage ul h2 { font-size: 18px; color: #333; font-weight: normal; }
 .advantage ul p { font-size: 14px; color: #888; width: 245px; margin: 0 auto; }
 .witness .title { text-align: center; }
-.witness { padding-top: 50px; margin-bottom: 50px;}
+.witness { padding-top: 50px; margin-bottom: 105px;}
 .witness .img-lists { margin-top: 25px; }
 .witness .img-lists li{ float: left; width: 20%; box-sizing: border-box; border: 1px solid #e9e9e9;  }
 .witness .img-lists li a { display: block; overflow: hidden; margin: 3px; }
@@ -135,7 +135,7 @@
 .chain-detail .line-title .line { width: 220px; border-top: 1px solid #d9181d; margin: 0 auto; text-align: center;}
 .chain-detail .line-title .line h2 { width: 190px; background-color: #f4f4f4; margin: 0 auto; font-size: 36px; font-weight: normal; line-height: 36px; margin-top: -18px; }
 .chain-detail .line-title p { text-align: center; font-size: 14px; color: #777; margin-top: 20px; }
-.chain-detail .list-img { margin: 30px 0 50px; }
+.chain-detail .list-img { margin: 0 0 50px; }
 .chain-detail .list-img li { width: 25%; position: relative; overflow: hidden;  float: left; box-sizing: border-box;}
 .chain-detail .list-img li .img { width: 100%; height: 100%; }
 .chain-detail .list-img li .img img { width: 100%; display: block;}
@@ -168,3 +168,22 @@
 #swiper .swiper-slide:hover .txt h2{ color: #fff; }
 #swiper .swiper-slide:hover .txt p{ color: #fff; }
 #swiper .swiper-slide:hover .txt a{ display: block; }
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet { margin: 0 10px; }
+#witness.swiper-container { padding-bottom: 60px; }
+.swiper-pagination-bullet i { padding-left: 12px; display: none;}
+.swiper-pagination-bullet-active i { display: inline; }
+.swiper-pagination-bullet:last-child i { display: none!important; }
+.swiper-pagination-bullet { width: auto; height: auto; text-align: center; color: #666; font-size: 18px; font-weight: bold; line-height: 20px; color: #666; opacity: 1; background: none;}
+.swiper-pagination-bullet-active {color: #d9181d;}
+#container .swiper-button-next,#container .swiper-button-prev,#witness .swiper-button-next,#witness .swiper-button-prev { top: auto; bottom: 0; outline: none; line-height: 40px; height: 40px; width: 40px; }
+#container .swiper-button-prev ,#witness .swiper-button-prev { background: url('../images/leftJian.png') no-repeat center; }
+#container .swiper-button-prev:hover,#witness .swiper-button-prev:hover { background:#d9181d url('../images/leftJian1.png') no-repeat center; }
+#container .swiper-button-next ,#witness .swiper-button-next { background: url('../images/rightJian.png') no-repeat center; }
+#container .swiper-button-next:hover,#witness .swiper-button-next:hover { background:#d9181d  url('../images/rightJian1.png') no-repeat center; }
+#container .controls,#witness .controls{ width: 300px; position: absolute; bottom: 0; height: 50px; margin: 0 auto; left: 50%; margin-left: -150px;}
+#container .controls { bottom: 12px; text-align: center; }
+#container { background-color: #f4f4f4; padding-bottom: 20px; margin-top: 30px; }
+#container .controls .link { display: inline-block; margin-top: 10px; background-color: #fff; width: 93px; text-align: center; }
+#container .controls .link a { display: block; width: 93px; height: 40px; line-height: 40px; background: url('../images/control2.png') no-repeat center; overflow: hidden; text-indent: -999px; }
+#container .swiper-button-next,#container .swiper-button-prev { background-color: #fff; }
+#container .controls { width: 212px; margin-left: -106px; }
