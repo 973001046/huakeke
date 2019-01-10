@@ -236,6 +236,8 @@
 .team .team-img .txt .contxt .link a { display: inline-block; width: 124px; height: 37px; text-align: center; line-height: 37px; background-color: #d9181d; color: #fff; border-radius: 20px; text-decoration: none; margin-top: 50px; }
 .team-introduce { background-color: #fff; padding: 40px 0 30px; }
 .title-line { border-top: 1px solid #e8e8e8; width: 1122px; margin: 0 auto; text-align: center;}
+.title-line.special { margin-top: 60px; }
+.title-line.special h2{ background-color: #f4f4f4 }
 .title-line h2 { display: inline-block; background-color: #fff; padding: 0 15px;  line-height: 40px; font-size: 24px; color: #333; font-weight: normal; }
 .title-line .title { margin-top: -20px; }
 .title-line .line { width: 50px; height: 3px; background-color: #d9181d; content: ''; margin: 12px auto 25px; }
@@ -246,7 +248,7 @@
 .team-people ul li .contxt { position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); display: none;}
 .team-people ul li .table { display: table; height: 100%; vertical-align: middle; color: #fff;}
 .team-people ul li .table-cell { display: table-cell; vertical-align: middle; padding-left: 25px;}
-.team-people ul li .name { font-size: 22px; width: 40px; border-bottom: 1px solid #d9181d; white-space: nowrap; line-height: 40px; margin-bottom: 10px;}
+.team-people ul li .name { font-size: 22px; display: inline-block; padding-right: 20px; border-bottom: 1px solid #d9181d; white-space: nowrap; line-height: 40px; margin-bottom: 10px;}
 .team-people ul li p { line-height: 30px; font-size: 14px; opacity: .9; } 
 /*.team-people ul li:nth-child(5n+5) { border-right: none; }*/
 .team-people ul li:hover .contxt { display: block; } 
